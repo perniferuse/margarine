@@ -1,3 +1,6 @@
 [submodule "puppet/modules/vcsrepo"]
 	path = puppet/modules/vcsrepo
 	url = https://github.com/puppetlabs/puppetlabs-vcsrepo.git
+[submodule "puppet/modules/margarine"]
+	path = puppet/modules/margarine
+	url = git@github.com:raxsavvy/margarine-puppet.git
