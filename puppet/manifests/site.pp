@@ -1,12 +1,12 @@
 node /tinge.*/ {
-  include tinge
+  class { margarine::tinge: }
 }
 
 node /blend.*/ {
-  include blend
+  class { margarine::blend: }
 }
 
 node /spread.*/ {
-  include spread
+  class { margarine::spread: }
 }
 
