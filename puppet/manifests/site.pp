@@ -10,5 +10,5 @@ node /spread.*/ {
   class { margarine::spread: }
 }
 
-default { }
+node default { }
 
