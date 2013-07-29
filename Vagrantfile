@@ -14,16 +14,19 @@ Vagrant.configure("2") do |config|
   config.vm.define "tinge" do |tinge|
     tinge.vm.network :private_network, ip: "192.168.57.10"
     tinge.vm.synced_folder ".", "/margarine"
+    tinge.vm.host_name = "tinge.example.com"
   end
 
   config.vm.define "blend" do |blend|
     blend.vm.network :private_network, ip: "192.168.57.11"
     blend.vm.synced_folder ".", "/margarine"
+    blend.vm.host_name = "blend.example.com"
   end
 
   config.vm.define "spread" do |spread|
     spread.vm.network :private_network, ip: "192.168.57.12"
     spread.vm.synced_folder ".", "/margarine"
+    spread.vm.host_name = "spread.example.com"
   end
 
   config.vm.define "rabbit" do |rabbit|
