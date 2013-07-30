@@ -4,3 +4,15 @@
 [submodule "puppet/modules/margarine"]
 	path = puppet/modules/margarine
 	url = git@github.com:raxsavvy/margarine-puppet.git
+[submodule "puppet/modules/apt"]
+	path = puppet/modules/apt
+	url = https://github.com/puppetlabs/puppetlabs-apt.git
+[submodule "puppet/modules/nginx"]
+	path = puppet/modules/nginx
+	url = https://github.com/puppetlabs/puppetlabs-nginx.git
+[submodule "puppet/modules/stdlib"]
+	path = puppet/modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "puppet/modules/uwsgi"]
+	path = puppet/modules/uwsgi
+	url = https://github.com/althalus/puppet-uwsgi.git
